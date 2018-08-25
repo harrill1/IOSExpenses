@@ -13,6 +13,7 @@
 		BC9A19CC2130AA2300B63FA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC9A19CA2130AA2300B63FA9 /* LaunchScreen.storyboard */; };
 		BC9A19D42130AF3200B63FA9 /* ExpenseStructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9A19D32130AF3200B63FA9 /* ExpenseStructure.swift */; };
 		BC9A19D62130B25200B63FA9 /* ExpensesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9A19D52130B25200B63FA9 /* ExpensesTableViewController.swift */; };
+		BC9A19D82130D3C400B63FA9 /* ExpenseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9A19D72130D3C400B63FA9 /* ExpenseTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		BC9A19CD2130AA2300B63FA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC9A19D32130AF3200B63FA9 /* ExpenseStructure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseStructure.swift; sourceTree = "<group>"; };
 		BC9A19D52130B25200B63FA9 /* ExpensesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpensesTableViewController.swift; sourceTree = "<group>"; };
+		BC9A19D72130D3C400B63FA9 /* ExpenseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				BC9A19CD2130AA2300B63FA9 /* Info.plist */,
 				BC9A19D32130AF3200B63FA9 /* ExpenseStructure.swift */,
 				BC9A19D52130B25200B63FA9 /* ExpensesTableViewController.swift */,
+				BC9A19D72130D3C400B63FA9 /* ExpenseTableViewCell.swift */,
 			);
 			path = Expenses;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC9A19D82130D3C400B63FA9 /* ExpenseTableViewCell.swift in Sources */,
 				BC9A19D42130AF3200B63FA9 /* ExpenseStructure.swift in Sources */,
 				BC9A19D62130B25200B63FA9 /* ExpensesTableViewController.swift in Sources */,
 				BC9A19C22130AA1D00B63FA9 /* AppDelegate.swift in Sources */,

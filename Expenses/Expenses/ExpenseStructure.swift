@@ -9,9 +9,7 @@
 import Foundation
 
 struct Expense {
-    
-    var title: String
-    var amount: Double
-    var date: Date
-    
+    let title: String
+    let amount: Double
+    let date: Date
 }
